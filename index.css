@@ -1,0 +1,216 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      position: relative;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .hamburger {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .nav {
+      display: none;
+      flex-direction: column;
+      background-color: #111;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 0;
+      font-size: 16px;
+    }
+
+    .nav.show {
+      display: flex;
+    }
+
+    .container {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      background-color: #444;
+    }
+        .profile-pic img{
+            width: 100%;
+            height: 100%;
+            border-radius: 100px;
+        }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      animation: fadeIn 2s ease-in;
+    }
+
+    h2 {
+      font-size: 16px;
+      color: #ccc;
+      margin-bottom: 15px;
+      animation: fadeIn 3s ease-in;
+    }
+
+    .tagline {
+      font-size: 14px;
+      margin-bottom: 20px;
+      color: #aaa;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      color: #000;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #ddd;
+    }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .social a {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+        .social a .facebook{
+            color: blue;
+        }
+        .social a .call{
+            color: lightgreen;
+        }
+        .social a .email{
+            color: red;
+        }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+
+/* MY WORK START */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    .work-card {
+      background-color: #111;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .work-card:hover {
+      transform: scale(1.02);
+    }
+
+    .work-thumbnail {
+      width: 100%;
+      height: 200px;
+      background-color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #aaa;
+    }
+    .work-thumbnail img{
+        width: 100%;
+        height: 100%;
+    }
+    .work-content {
+      padding: 15px;
+    }
+
+    .work-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .work-description {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+
+    .work-link {
+      text-decoration: none;
+      color: #000;
+      background-color: #fff;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+
+    .work-link:hover {
+      background-color: #ddd;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
